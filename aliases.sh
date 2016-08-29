@@ -14,8 +14,8 @@ alias untarSimple="tar -xvf"
 
 # git protipz
 # alias gg="git fetch && git status -sb"  # disable this if you find it too slow, and use the below one
-# alias gst="git status -sb"
-# alias ga="git add"
+alias gst="git status -sb"
+alias ga="git add"
 # alias gaa="git add -A"
 # alias gcm="git commit -m"
 # alias gpl="git pull"
@@ -34,9 +34,6 @@ alias goops="git reset --hard HEAD"
 
 # github
 # alias gpages="git push origin master:gh-pages"
-
-# i don't trust bower
-# alias okbower="rm -rf bower_components && bower cache clean && bower install"
 
 # servers
 alias serve="python -m SimpleHTTPServer"
