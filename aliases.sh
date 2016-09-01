@@ -1,23 +1,21 @@
 alias edit="atom"
-# alias vi="emacs"
-# alias vim="emacs"
 
-# alias s="cd .."
+alias up="cd .."
 alias findg="find . -type f -print0 | xargs -0 grep -Ini --color=auto"
 alias la="ls -a"
 
 # alias mine="ps -ef | grep $USER"
 # alias what="top -osize"
 
-alias untarGzip="tar -xzvf"
-alias untarSimple="tar -xvf"
+alias unpack="tar -xzvf"
+# alias untarSimple="tar -xvf"
 
 # git protipz
 # alias gg="git fetch && git status -sb"  # disable this if you find it too slow, and use the below one
 alias gst="git status -sb"
 alias ga="git add"
 # alias gaa="git add -A"
-# alias gcm="git commit -m"
+alias gcm="git commit -m"
 # alias gpl="git pull"
 # alias gps="git push"
 alias gll="git log --graph --date=short --pretty=format:'%Cgreen%h %Cblue%cd (%cr) %Cred%an%C(yellow)%d%Creset: %s'"
@@ -26,7 +24,7 @@ alias gundo="git checkout"
 alias gdiff="git diff"
 alias greset="git reset HEAD"
 alias goops="git reset --hard HEAD"
-# alias gsh="git stash"
+alias gsh="git stash"
 # alias gnuke="git branch -D"
 # alias gbr="git checkout -b"
 # alias gba="git branch -a"
@@ -37,8 +35,9 @@ alias goops="git reset --hard HEAD"
 
 # servers
 alias serve="python -m SimpleHTTPServer"
-# alias okblog="jekyll serve --watch"
-# alias okgulp="gulp watch --reload"
 
-# alias ee="exit"
-# alias qq="exit"
+# My iMac quirk - it occasionally reboots when idle. This prevents it.
+alias noslp="node --eval 'while(1);'"
+
+alias ee="exit"
+alias qq="exit"
