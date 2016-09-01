@@ -37,7 +37,7 @@ alias gsh="git stash"
 alias serve="python -m SimpleHTTPServer"
 
 # My iMac quirk - it occasionally reboots when idle. This prevents it.
-alias noslp="node --eval 'while(1);'"
+alias nsp="node --eval 'while(1);'"
 
 alias ee="exit"
 alias qq="exit"
