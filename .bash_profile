@@ -1,10 +1,13 @@
-PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH:/usr/local/Cellar/sbt/0.13.13/bin:"
+export PATH=/Users/alexk/.nvm/versions/node/v6.3.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/opt/riak/riak-2.2.0/bin:/usr/local/Cellar/python3/3.6.3/bin
 export NVM_DIR=~/.nvm
 source ~/.nvm/nvm.sh
-nvm use v7.6.0 >> /dev/null
 
-#Aliases.
-alias edit="atom"
+#Limits for Riak.
+ulimit -n 200000
+ulimit -u 2048
+
+alias mate="/Applications/TextMate.app/Contents/Resources/mate -w"
+alias edit="mate"
 
 alias up="cd .."
 alias findg="find . -type f -print0 | xargs -0 grep -Ini --color=auto"
@@ -45,5 +48,16 @@ alias serve="python -m SimpleHTTPServer"
 alias ee="exit"
 alias qq="exit"
 
-# OneMW
-alias ssh_onemw="ssh -p 2222 onemwdev@127.0.0.1 -i ~/.ssh/onemw"
+alias docker_clean="docker rmi $(docker images -q)"
+
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+
+##
+# Your previous /Users/alexk/.bash_profile file was backed up as /Users/alexk/.bash_profile.macports-saved_2017-02-27_at_23:07:09
+##
+
+# MacPorts Installer addition on 2017-02-27_at_23:07:09: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+export PATH="$HOME/.cargo/bin:$PATH"
