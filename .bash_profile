@@ -54,6 +54,8 @@ alias jdk_list="/usr/libexec/java_home -V"
 # servers
 alias serve="python -m SimpleHTTPServer"
 
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome" 
+
 alias ee="exit"
 alias qq="exit"
 
