@@ -11,6 +11,7 @@ source ~/.cargo/env
 
 #Aliases.
 alias edit="/Applications/TextMate.app/Contents/Resources/mate -w"
+alias atom="/Applications/Atom.app/Contents/MacOS/Atom"
 
 alias up="cd .."
 alias findg="find . -type f -print0 | xargs -0 grep -Ini --color=auto"
