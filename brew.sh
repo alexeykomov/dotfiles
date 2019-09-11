@@ -36,7 +36,6 @@ brew install readline
 brew install watchman
 brew install freetype
 brew install libplist
-brew install mongodb
 brew install redis
 brew install xz
 brew install gdbm
