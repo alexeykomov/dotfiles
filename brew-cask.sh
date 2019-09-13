@@ -4,3 +4,5 @@ brew cask install textmate
 brew cask install atom
 brew cask install mongodb
 brew cask install docker
+brew cask install chromium
+brew cask install firefox
