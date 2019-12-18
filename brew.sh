@@ -51,3 +51,4 @@ brew install hugo
 brew install libtiff
 brew install openssl
 brew install sbt
+brew install rename
